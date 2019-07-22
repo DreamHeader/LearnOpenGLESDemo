@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+/**
+  my tableview to  show  OpenGL List
+ */
+@property (nonatomic,strong) UITableView * myTableView;
 
 @end
 
