@@ -16,7 +16,7 @@
 		84137D1022E5B74C008D1FC9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84137D0F22E5B74C008D1FC9 /* OpenGLES.framework */; };
 		84137D1222E5B756008D1FC9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84137D1122E5B756008D1FC9 /* GLKit.framework */; };
 		84137D1522E5B782008D1FC9 /* MyGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84137D1422E5B782008D1FC9 /* MyGLKViewController.m */; };
-		848AFA1F22E5BAE700753AB0 /* SanJiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AFA1E22E5BAE700753AB0 /* SanJiaoViewController.m */; };
+		848AFA2222E69DEF00753AB0 /* MoreTextureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848AFA2122E69DEF00753AB0 /* MoreTextureViewController.m */; };
 		9C982DFC69E108CE375215CC /* libPods-LearnOpenGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA6F3D44B5C9446E29A2C5B /* libPods-LearnOpenGL.a */; };
 /* End PBXBuildFile section */
 
@@ -35,8 +35,8 @@
 		84137D1122E5B756008D1FC9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		84137D1322E5B782008D1FC9 /* MyGLKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGLKViewController.h; sourceTree = "<group>"; };
 		84137D1422E5B782008D1FC9 /* MyGLKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGLKViewController.m; sourceTree = "<group>"; };
-		848AFA1D22E5BAE700753AB0 /* SanJiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SanJiaoViewController.h; path = ../../../../../.Trash/SanJiaoViewController.h; sourceTree = "<group>"; };
-		848AFA1E22E5BAE700753AB0 /* SanJiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SanJiaoViewController.m; path = ../../../../../.Trash/SanJiaoViewController.m; sourceTree = "<group>"; };
+		848AFA2022E69DEF00753AB0 /* MoreTextureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreTextureViewController.h; sourceTree = "<group>"; };
+		848AFA2122E69DEF00753AB0 /* MoreTextureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreTextureViewController.m; sourceTree = "<group>"; };
 		88BAD913FE67DA085A39CEAF /* Pods-LearnOpenGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnOpenGL.debug.xcconfig"; path = "Target Support Files/Pods-LearnOpenGL/Pods-LearnOpenGL.debug.xcconfig"; sourceTree = "<group>"; };
 		BBA6F3D44B5C9446E29A2C5B /* libPods-LearnOpenGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LearnOpenGL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE60EC536AE69285BB0F2803 /* Pods-LearnOpenGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnOpenGL.release.xcconfig"; path = "Target Support Files/Pods-LearnOpenGL/Pods-LearnOpenGL.release.xcconfig"; sourceTree = "<group>"; };
@@ -120,10 +120,10 @@
 		84137D0822E5A8C2008D1FC9 /* OpenGLVIewController */ = {
 			isa = PBXGroup;
 			children = (
-				848AFA1D22E5BAE700753AB0 /* SanJiaoViewController.h */,
-				848AFA1E22E5BAE700753AB0 /* SanJiaoViewController.m */,
 				84137D1322E5B782008D1FC9 /* MyGLKViewController.h */,
 				84137D1422E5B782008D1FC9 /* MyGLKViewController.m */,
+				848AFA2022E69DEF00753AB0 /* MoreTextureViewController.h */,
+				848AFA2122E69DEF00753AB0 /* MoreTextureViewController.m */,
 			);
 			path = OpenGLVIewController;
 			sourceTree = "<group>";
@@ -235,8 +235,8 @@
 			files = (
 				84137CF422E5A7B2008D1FC9 /* ViewController.m in Sources */,
 				84137CFF22E5A7B3008D1FC9 /* main.m in Sources */,
-				848AFA1F22E5BAE700753AB0 /* SanJiaoViewController.m in Sources */,
 				84137CF122E5A7B2008D1FC9 /* AppDelegate.m in Sources */,
+				848AFA2222E69DEF00753AB0 /* MoreTextureViewController.m in Sources */,
 				84137D1522E5B782008D1FC9 /* MyGLKViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
